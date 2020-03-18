@@ -1,0 +1,125 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#product-overview {
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6), 10%, transparent),
+    url(./freedom.jpg) no-repeat left 10% bottom 20% / cover, border-box #ff1b68;
+  width: 100%;
+  height: 528px;
+  padding: 10px;
+}
+
+#product-overview h1 {
+  color: white;
+}
+
+.section-title {
+  color: #2ddf5c;
+  font-family: inherit;
+  text-align: center;
+}
+
+/* Plan */
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 1rem;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+}
+
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.plan__highlighted {
+  background: #19b84c;
+  color: #fff;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.plan__highlighted .plan__price {
+  color: #0e4f1f;
+}
+.plan__highlighted .plan__title {
+  color: #fff;
+}
+.recommended__plan {
+  padding: 8px;
+  background: #fff;
+  color: #2ddf5c;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.plan__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan__features li {
+  margin: 8px 0;
+}
+
+.plan__title {
+  color: #0e4f1f;
+}
+.plan__price {
+  color: #b4a9a9;
+}
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 60px;
+}
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+
+#key-features ul {
+  display: block;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: 2px solid #424242;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
